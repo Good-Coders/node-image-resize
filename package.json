@@ -1,39 +1,35 @@
 {
-  "name": "node-image-resize",
-  "version": "0.0.1",
-  "author": {
-    "name": "Kalarrs Topham",
-    "email": "kalarrs.topham@hiregoodcoders.com"
-  },
-  "description": "A image resizing libray that uses Graphics Magic",
-  "main": "./lib/image-resize",
-  "dependencies": {
+	"name": "node-image-resize",
+	"version": "0.0.2",
+	"author": {
+		"name": "Kalarrs Topham",
+		"email": "kalarrs.topham@hiregoodcoders.com"
+	},
+	"description": "A image resizing libray that uses Graphics Magic",
+	"main": "./lib/image-resize",
+	"dependencies": {
 		"gm": "1.16.0",
 		"q": "1.0.1"
-  },
-  "scripts": {
-    "test": "node test/test.js"
-  },
-  "engines": {
-    "node": ">=0.8.0"
-  },
-  "keywords": [
-    "image",
-    "resize"
-  ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://github.com/Good-Coders/node-image-resize/raw/master/LICENSE"
-    }
-  ],
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/Good-Coders/node-image-resize.git"
-  },
-  "readmeFilename": "README.md",
-  "bugs": {
-    "url": "https://github.com/Good-Coders/node-image-resize/issues"
-  },
-  "homepage": "https://github.com/Good-Coders/node-image-resize"
+	},
+	"devDependencies": {
+		"mocha": "~1.20.0"
+	},
+	"engines": {
+		"node": ">= 0.8.0"
+	},
+	"keywords": [
+		"image",
+		"resize"
+	],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://github.com/Good-Coders/node-image-resize/raw/master/LICENSE"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/Good-Coders/node-image-resize.git"
+	},
+	"homepage": "https://github.com/Good-Coders/node-image-resize"
 }
